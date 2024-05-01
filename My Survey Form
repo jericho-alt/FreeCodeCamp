@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survery From</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Jericho Survey Form</h1>
+    <p id="description">This survey will help us to get insight on what to improve.
+ 
+<form id="survey-form">
+    
+  <label id="name-label" for="name">Enter Your Full Name</label>
+  <input id="name" type="text" required placeholder="Jericho Tamonan" />
+
+  <label id="email-label" for="email">Enter Your Email<input id="email" type="email" placeholder="test@sample.com" required>
+  </label>
+
+  <label id="number-label" for="number">Enter Your Age<input type="number" id="number" required min="10" max="120" placeholder="18"/></label>
+
+  <label for="dropdown">Which option best describes your current role?
+    <select id="dropdown">
+      <option>Employee
+      </option>
+      <option>Student
+      </option>
+    </select>
+  </label>
+  <field id="recommend">
+  <p>Would you recommend freeCodeCamp?</p>
+<label for="yes">Yes
+  <input value="yes" type="radio" name="reco" id="yes"/>
+</label>
+<label for="maybe">Maybe
+  <input name="reco" value="maybe" type="radio" id="maybe"/>
+</label>
+<label for="no">No
+  <input name="reco" value="no" type="radio" id="no"/>
+</label>
+</field>
+<p>Whay do you want to enroll?</p>
+<label>To learn new things
+  <input value="new" type="checkbox"/>
+</label>
+<label>To career shift
+  <input value="shift" type="checkbox"/>
+</label>
+<label>I'm bored
+  <input value="bored" type="checkbox"/>
+</label>
+<label>
+  <textarea id="suggest" rows="3" placeholder="Any suggestion and comments.."></textarea>
+</label>
+<label><input id="submit" type="submit" value="submit"></label>
+
+</form>
+</body>
+</html>
